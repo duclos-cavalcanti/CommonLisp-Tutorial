@@ -1,3 +1,9 @@
+(defun add_let (a b)
+    (let ( (r (+ a b)) 
+         )
+      r)
+)
+
 (defun sub(x y)
     (- x y))
 
@@ -42,3 +48,5 @@
 
 (trace fact)
 (fact 4)
+
+(print (add_let 2 3))
